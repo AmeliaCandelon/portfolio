@@ -1,0 +1,27 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 30px;
+    margin: 10px;
+    align-items: center;
+}
+
+.grid .titre{
+    margin: 50px;
+}
+
+.grid .titre div{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 50px;
+}
+
+
+@media  screen and (max-width: 800px) {
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+}

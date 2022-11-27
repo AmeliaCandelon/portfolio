@@ -1,0 +1,89 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 200px;
+}
+
+.flex h1{
+    margin: 50px;
+}
+
+.flex .titre{
+    display: flex;
+    align-items: center;
+
+}
+
+.opacity{
+    font-family: sans-serif;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto;
+    transform: translateY(-200px);
+    opacity: 0;
+}
+
+.reveal{
+    padding: 1em 2em;
+    font-size: 34px;
+    background-color: rgb(162, 151, 138);
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.reveal:hover + .opacity{
+    animation: 1s apparait forwards ease-out;
+}
+
+@keyframes apparait{
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.flex a{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.projetabba a{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+
+
+.flex .projetfigma{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetfigma{
+    background-color: rgb(230, 229, 225) ;
+}
+
+.projetabba{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 229, 225) ;
+    gap: 20px;
+}
+
+

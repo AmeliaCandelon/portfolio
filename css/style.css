@@ -1,0 +1,101 @@
+@import url(components/button.css);
+@import url(components/image.css);
+@import url(components/flex.css);
+@import url(components/grid.css);
+@import url(components/bootstrap.css);
+
+*{
+    /* background: rgba(25, 255, 30, 0.1)!important;
+    border: 1px dotted green; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+nav{
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    background-color: rgb(162, 151, 138);
+    border-bottom: 2px solid black;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    font-family:sans-serif;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav h2{
+    font-size: medium;
+}
+
+.logo{
+    animation: tourne 3s linear infinite;
+}
+
+@keyframes tourne{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    gap: 30px;
+    background-color: rgb(230, 229, 225) ;
+    font-family:sans-serif;
+}
+
+main h1{
+    margin-left: 30px;
+    padding: 0;
+}
+
+main a{
+    margin-left:30px;
+}
+
+.contactb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+@media  screen and (max-width: 800px) {
+    nav ul {
+        align-items: center;
+    }
+
+}
+
+@media  screen and (min-width: 800px) {
+    main .contactb{
+        margin-left:530px;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

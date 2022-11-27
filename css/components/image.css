@@ -1,0 +1,88 @@
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.moi{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    animation: scale 1.5s linear 0s infinite;
+    
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1, 1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+
+.fig{
+    width: 700px;
+    height: 550px;
+}
+
+.verso{
+    width: 700px;
+    height: 550px;
+}
+.recto{
+    width: 700px;
+    height: 550px;
+}
+
+
+.gui{
+    width: 600px;
+    height: 450px;
+}
+
+.leveldesign{
+    width: 600px;
+    height: 450px;
+}
+
+
+@media screen and (max-width:600px ){
+    
+    .moi{
+        width: 250px;
+        height: 250px;
+    }
+
+    .fig{
+        width: 300px;
+        height: 300px;
+    }
+
+    .recto{
+        width: 300px;
+        height: 300px;
+    }
+
+    .verso{
+        width: 300px;
+        height: 300px;
+    }
+
+    .gui{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .leveldesign{
+        width: 400px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,49 @@
+.contact{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color:  rgb(162, 151, 138);
+    border-width: 0;
+}
+
+.contact:hover{
+    background-color: black;
+}
+
+.Projets{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color:  rgb(162, 151, 138);
+    border-width: 0;
+}
+
+.Projets:hover{
+    background-color: black;
+}
+
+.voirprojets{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color:  rgb(162, 151, 138);
+    border-width: 0;
+    transition: 3s;
+}
+
+.voirprojets:hover{
+    background-color: black;
+}
+
+.yoni{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color:  rgb(162, 151, 138);
+    border-width: 0;
+    transition: 3s;
+}
+
+.yoni:hover{
+    background-color: black;
+}
