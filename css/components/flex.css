@@ -1,3 +1,7 @@
+*{
+    font-family: 'Times New Roman', Times, serif; 
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +21,7 @@
 }
 
 .opacity{
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 24px;
     width: 50%;
     margin: 0 auto;
@@ -29,7 +33,7 @@
     padding: 1em 2em;
     font-size: 34px;
     background-color: rgb(162, 151, 138);
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif; 
     text-align: center;
     margin-bottom: 20px;
 
